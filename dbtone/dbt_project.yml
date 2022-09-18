@@ -25,7 +25,7 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_modules"
 
 vars:
-  material_type: table
+  material_type: changed_for_github_view
 
 
 # Configuring models
