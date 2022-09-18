@@ -25,7 +25,7 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_modules"
 
 vars:
-  material_type: India_is_my_country
+  material_type: view
 
 
 # Configuring models
