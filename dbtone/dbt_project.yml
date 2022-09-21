@@ -26,6 +26,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 vars:
   material_type: view
+  database_name: nothing
+  schema_name: nothing
 
 
 # Configuring models

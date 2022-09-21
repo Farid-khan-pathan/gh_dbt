@@ -1,5 +1,5 @@
 {{
-    config(materialized=var('material_type'))
+    config(materialized=var('material_type'),database=var('database_name'),schema=var('schema_name'))
 }}
 
 SELECT SUBSTR(DNAME,1,2)||'_'||DNO AS C_DNO,
