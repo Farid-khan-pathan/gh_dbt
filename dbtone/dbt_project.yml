@@ -25,8 +25,15 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_modules"
 
 vars:
-  material_type: view
+  #material_type: view
+  database_name: CDW_DEV_SALES
 
+  std_schema_name: STD
+  std_material_type: view
+  stage_schema_name: STAGE
+  stage_material_type: table
+  core_schema_name: CORE
+  agg_schema_name: SLV
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
